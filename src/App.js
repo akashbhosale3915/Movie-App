@@ -10,7 +10,7 @@ const [query,setquery] = useState("");
 const [result,setresult]=useState([]);
 
  const handleapi =  () =>{
-  axios.get("https://www.omdbapi.com/?s="+query+"&apikey=a8032f36")
+  axios.get("https://www.omdbapi.com/?s="+query+"&apikey=8f9491db")
   .then(res=>{setresult((res.data.Search))
   console.log(result)})
   .catch(err => console.log(err))
